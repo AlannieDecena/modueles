@@ -29,5 +29,19 @@ function analyzeSentence(sentence) {
 
 console.log('Your score is' + analyzeSentence('I love chocos')); 
 
+function lolliPop (a, b) {
+    let result = a*b;
+    return result
+}
+console.log(2,3);
 
+function monitorCount(rows, columns) {
+    return rows * columns;
+    }
+    const numOfMonitors = monitorCount(5, 4);
+    console.log(numOfMonitors)
 
+function greeting (name = 'stranger') {
+    console.log(`Hello, ${name}!`)
+}
+greeting('Zoro')
