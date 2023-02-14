@@ -45,7 +45,20 @@ article {
     
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.slider-container {
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+}
+.img-slider {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+footer { 
+    background: #222; 
+    color: #eee; 
+    text-align: center; 
+    padding: 0.5em; 
+    font-size: 0.9em; 
 }
