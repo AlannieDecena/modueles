@@ -27,21 +27,20 @@
 //let firstSea = seas.shift()
 //console.log('first sea is' + firstSea)
 
+
+// changing the value of '1' and '4'.
 //let shoppingList = ['shoes', 'dress', 'bag', 'pants', 'glasses'];
-//shoppingList ['1', '4'] = 'paper', 'pen';
+//shoppingList ['1'] = 'paper';
+//shoppingList ['4'] = 'pen';
 //console.log(shoppingList);
 
+//creating a json object for a Book.
+const book = {
+   "title" : "Cat on a trip",
+    "author" : "Ruby",
+    "description" : "about a cat on a trip",
+    "numOfPages" : 24
+    }
 
-//const user = {
-  //  "first_name" : "Sammy",
-    //"last_name" : "Shark",
-    //"age" : 25,
-    //"followers" : 987
-    //}
-    //console.log (user.first_name + ' is ' + user.age + 'years old');
-    //console.log(user.age)
-
-    //function sun (a, b) {
-      //  return a+b;
-   // }
-  //  If (sum(2,4)!=6) { throw new error} 
+console.log('The name of the book is ' + book.title);
+console.log('Written by ' + book.author + ' it has ' + book.numOfPages + ' pages.');
